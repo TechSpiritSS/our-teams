@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap");
+
+:root {
+  --primary-font: "Lobster", cursive;
+  --secondary-font: "Poppins", sans-serif;
+  --primary-background: #e3e6e9;
+}
+
+body {
+  font-family: var(--secondary-font);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: var(--primary-background);
+}
+h2 {
+  font-family: var(--secondary-font);
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.Team-Swiper {
+  width: 75%;
+  height: 75%;
+  margin: auto;
+}
+
+.Team-Swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.media-icons .fa {
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.media-icons .fa:hover {
+  color: rgb(0, 153, 255);
+}
+
+.zoom-on-hover {
+  height: 75vh;
+  object-fit: scale-down;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .zoom-on-hover {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+  }
+}
